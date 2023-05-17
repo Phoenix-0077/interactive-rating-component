@@ -1,0 +1,70 @@
+@font-face {
+    font-family: myOverpass;
+    src: url(Overpass-VariableFont_wght.ttf);
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    margin: 0;
+    padding: 0;
+}
+.main-card{
+    background-color: hsl(213, 19%, 18%);
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 25px 20px;
+    font-family: myOverpass;
+}
+img{
+    border-radius: 50%;
+    background-color: hsla(216, 12%, 54%, 0.2);
+    padding: 13px;
+}
+h1{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+}
+button{
+    background-color: hsla(216, 12%, 54%, 0.2);
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 13px;
+    margin: 10px 7.5px 30px 0;
+    font-family: myOverpass;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+button:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%)
+}
+button:active{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%)
+}
+input{
+    height: 40px;
+    width: 330px;
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 20px;
+    font-family: myOverpass;
+    font-weight: 400;
+}
+input:active{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.attribution{
+    position: absolute;
+    bottom: 0;
+    left: 43%;
+}
